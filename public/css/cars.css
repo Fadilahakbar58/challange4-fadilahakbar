@@ -1,0 +1,183 @@
+body {
+    font-family: Helvetica;
+    overflow-x: hidden;
+}
+
+.background-filter {
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+/* Navbar Start */
+
+.bg-all {
+    background-color: #F1F3FF;
+}
+
+.bg-btn {
+    background-color: #5CB85F;
+    color: white;
+}
+
+.navbar-loc {
+    margin: 0% 6%;
+}
+
+.brand {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+    margin-left: 6%;
+}
+
+.off-navbar {
+    width: 50%;
+}
+
+.tittle {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 25%;
+}
+
+.content {
+    font-size: 14px;
+    padding-right: 80px;
+}
+
+
+/* Navbar End */
+
+/* Header Start */
+
+.grid-left {
+    padding-top: 5%;
+    padding-left: 12%;
+}
+
+.grid-right {
+    padding-left: 3.5%;
+}
+
+.car-img {
+    max-width: 100%;
+}
+
+
+/* Header End */
+
+/*Bagian Tablet*/
+
+
+    /*==Footer==*/
+    .footer {
+        padding-left: 2%;
+    }
+
+
+    .card-mobil {
+        margin-top: 5%;
+        padding: 24px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+    }
+
+    .card-mobil .keterangan-mobil .tipe {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        margin-top: 16px;
+    }
+    
+    .card-mobil .keterangan-mobil .title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0;
+    }
+    
+    .card-mobil .keterangan-mobil .keterangan {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .card-mobil .spesifikasi-detail {
+        margin-bottom: 8px;
+    }
+    
+    .card-mobil .spesifikasi-icon {
+        padding-right: 10px;
+    }
+    
+    .card-mobil .nav-item-btn {
+        font-size: 12px;
+    }
+
+    
+.cars-filter {
+    position: relative;
+    margin-top: -40px;
+    padding: 25px 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.cars-filter .border-user {
+    border: 1px solid #ced4da !important;
+}
+
+.cars-filter .form-label,
+.cars-filter .form-control,
+.cars-filter .form-select,
+.cars-filter .btn {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+}
+
+.cars-filter .nav-item-btn {
+    margin-top: 27px;
+}
+
+.cars-filter .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0 !important;
+}
+
+select:focus>option:checked {
+    background: #C9E7CA !important;
+}
+.nav-item-btn {
+    background: #5CB85F;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 2px;
+}
+
+.nav-item-btn:hover {
+    background: #409b43;
+    color: #FFFFFF;
+}
+
+
+    
+    
